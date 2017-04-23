@@ -1,0 +1,49 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.fondo {
+  height: 400px;
+  width: 750px;
+  position: relative;
+  top: 0;
+  background-color: rgba(60,60,60,1);
+}
+
+.logo {
+  height: 15%;
+  position: relative;
+  left: 150px;
+  top: 20px;
+}
+
+.datos {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.datos h1 {
+  font-weight: normal;
+  width: 60%;
+  text-align: center;
+}
+
+.datos span {
+  font-weight: normal;
+
+  text-align: center;
+  color: rgb(232, 163, 39);
+}
+
+.datos p {
+  font-weight: 300;
+}
+
+.esquina {
+  width: 12%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
