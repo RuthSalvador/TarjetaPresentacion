@@ -1,51 +1,60 @@
 body {
   font-family: 'Oxygen', sans-serif;
   color: rgb(255, 255, 255);
+  font-weight: 300;
 }
 
 .fondo {
   height: 400px;
-  width: 750px;
+  width: 780px;
   position: relative;
   top: 0;
   background-image: url(../img/imagen.jpg);
-
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: -50px;
 }
 
 .tarjeta {
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(60,60,60,0) 50%, rgba(60,60,60,1) 50%, rgba(60,60,60,1) 100%);
+  background: linear-gradient(114deg, rgba(60,60,60,0) 0%, rgba(60,60,60,0) 50%, rgba(60,60,60,1) 50%, rgba(60,60,60,1) 100%);
 }
 
 .logo {
-  height: 15%;
+  height: 17%;
   position: relative;
-  left: 150px;
-  top: 20px;
+  left: 210px;
+  top: 7px;
 }
 
 .datos {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 42px;
 }
 
 .datos h1 {
-  font-weight: normal;
+  font-weight: inherit;
   width: 60%;
   text-align: center;
+  font-size: 1.8rem;
+  position: relative;
+  left: 84px;
 }
 
 .datos span {
-  font-weight: normal;
-
-  text-align: center;
+  font-size: 1.2rem;
   color: rgb(232, 163, 39);
+  position: relative;
+  left: 105px;
 }
 
 .datos p {
-  font-weight: 300;
+  line-height: 1.5rem;
+  position: relative;
+  left: 20px;
+  top: 20px;
 }
 
 .esquina {
@@ -53,4 +62,10 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+footer {
+  font-weight: normal;
+  color: rgb(60,60,60);
+  margin-top: 28px;
 }
